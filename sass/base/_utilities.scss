@@ -1,0 +1,42 @@
+.center{
+  text-align: center;
+}
+
+.m-b{
+  margin-bottom: 1rem;
+  
+}
+
+.border-l{
+  margin: 1rem;
+  border-left: 1px solid rgba(0, 0, 0, 0.281) ;
+  
+}
+
+.border-r{
+margin: 1rem;
+    border-right: 1px solid rgba(0, 0, 0, 0.281) ;
+  
+}
+.underline{
+  text-decoration: underline;
+  text-underline-position: under;
+}
+.p-b{
+  text-decoration-color: $color-space;
+}
+.space{
+    width: 80%;
+    height: 2vh;
+    margin: auto;
+    background-color:$color-space;
+    
+  
+}
+
+#icon{
+  font-size: 1.5rem;
+  padding-right: 1rem;
+  color: $color-space;
+  
+}

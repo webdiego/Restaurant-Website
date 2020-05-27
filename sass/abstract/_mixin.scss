@@ -1,0 +1,18 @@
+@mixin photo {
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      width: 11rem;
+      height: 11rem;
+      border-radius: 40%;
+      box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+@mixin shadow {
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.431), 0 6px 20px 0 rgba(0, 0, 0, 0.431);
+}
+@mixin photo-respond {
+      @media (max-width:450px) {
+           width: 80%;
+           }
+          
+}

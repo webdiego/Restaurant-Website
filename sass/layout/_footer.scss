@@ -1,0 +1,43 @@
+.footer{
+  font-family: 'lato',cursive;
+  height: 12vh;
+  background: rgb(48, 48, 48);
+  color: white;
+  position: relative;
+
+  @media (max-width:950px){
+    grid-template-columns: repeat(1,1fr);
+    height: 22vh;
+  }
+
+  &-social{
+    padding: 1rem;
+    @media (max-width:950px){
+      text-align: center;
+    }
+    .social{
+      width: 3rem;
+      height: 3rem;
+      margin-right: 1rem;
+      &-google{
+        width: 5.8rem;
+        height: 3rem;
+      }
+    }
+  }
+
+  
+  &-logo{
+    width: 3rem;
+    height: 3rem;
+  }
+
+  &-all{
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    
+  }
+}
