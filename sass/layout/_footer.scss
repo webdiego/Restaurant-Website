@@ -1,15 +1,20 @@
 .footer{
-  font-family: 'lato',cursive;
-  height: 12vh;
+  font-family: 'Roboto', sans-serif;
+  height: 17vh;
   background: rgb(48, 48, 48);
   color: white;
   position: relative;
+  @media screen and (max-width:450px) {
+    height: 40vh;
+  }
 
   @media (max-width:950px){
     grid-template-columns: repeat(1,1fr);
-    height: 22vh;
+    height: 27vh;
   }
-
+  @media screen and (max-height:600px) {
+    height: 45vh;
+  }
   &-social{
     padding: 1rem;
     @media (max-width:950px){
@@ -19,25 +24,56 @@
       width: 3rem;
       height: 3rem;
       margin-right: 1rem;
-      &-google{
-        width: 5.8rem;
-        height: 3rem;
-      }
+      
+  }
+  }
+  
+  &-all{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    @media (max-width:950px){
+      top: 70%;
+      left: 50%;
+      transform: translate(-50%,-50%);
     }
   }
-
-  
   &-logo{
     width: 3rem;
     height: 3rem;
   }
 
-  &-all{
-    position: absolute;
-    top: 70%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-    text-align: center;
-    
-  }
+  
+ .diego{
+  
+   position: relative;
+   margin: .5rem;
+  font-family: 'Gamja Flower', cursive;
+  font-size: 1.2rem;
+  font-weight: lighter;
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+  
+ }
+ .o{
+   color: rgb(189, 77, 12);
+  
+ }
+}
+.planet{
+  background-image: linear-gradient(
+   to bottom, 
+    rgb(210, 255, 11),
+     rgb(22, 89, 212)
+  ) ;
+  
+  position: absolute;
+  width: 1.5rem;
+  height: 1.5rem;
+  border-radius: 40%;
+  
+  
+  
 }

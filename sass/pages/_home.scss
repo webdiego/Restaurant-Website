@@ -4,9 +4,16 @@
   box-sizing: border-box;
 }
 
+html {
+  scroll-behavior: smooth;
+}
 body{
   font-family: 'caveat', cursive;
   font-size: 62.5%;
    //=16px=1rem;
    margin: 0 3rem;
+   @media screen and (max-width:600px) {
+    margin: 0 1rem;
+    }
+   
 }

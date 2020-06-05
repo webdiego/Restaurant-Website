@@ -10,13 +10,19 @@
 .border-l{
   margin: 1rem;
   border-left: 1px solid rgba(0, 0, 0, 0.281) ;
-  
+  @media screen and (max-width:500px){
+   
+    margin: 0;
+  }
 }
 
 .border-r{
 margin: 1rem;
     border-right: 1px solid rgba(0, 0, 0, 0.281) ;
-  
+    @media screen and (max-width:500px){
+   
+      margin: 0;
+    }
 }
 .underline{
   text-decoration: underline;
@@ -40,3 +46,25 @@ margin: 1rem;
   color: $color-space;
   
 }
+.button{
+ margin: 1rem;
+  text-align: center;
+
+  .btn{
+    font-family: 'Roboto', sans-serif;
+    padding: .1rem;
+    font-size: 1rem;
+    color: $color-space;
+    text-decoration: none;
+    border-left: solid 1px $color-space;
+    border-bottom:  solid 1px $color-space;
+
+    &:hover{
+      background-color: $color-space;
+      color: white;
+      border-left: solid 1px  rgba(252, 168, 1, 0.801);
+    border-bottom:  solid 1px  rgba(252, 168, 1, 0.801);
+    }
+  }
+}
+
