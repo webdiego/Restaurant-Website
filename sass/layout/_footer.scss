@@ -1,7 +1,7 @@
 .footer{
   font-family: 'Roboto', sans-serif;
   height: 17vh;
-  background: rgb(48, 48, 48);
+  background: rgb(73, 73, 73);
   color: white;
   position: relative;
   @media screen and (max-width:450px) {
@@ -41,39 +41,14 @@
     }
   }
   &-logo{
-    width: 3rem;
-    height: 3rem;
+    width: 2rem;
+    height: 2rem;
   }
 
-  
- .diego{
-  
-   position: relative;
-   margin: .5rem;
-  font-family: 'Gamja Flower', cursive;
-  font-size: 1.2rem;
-  font-weight: lighter;
-  color: rgb(0, 0, 0);
-  text-decoration: none;
-  
- }
- .o{
-   color: rgb(189, 77, 12);
-  
- }
-}
-.planet{
-  background-image: linear-gradient(
-   to bottom, 
-    rgb(210, 255, 11),
-     rgb(22, 89, 212)
-  ) ;
-  
-  position: absolute;
-  width: 1.5rem;
-  height: 1.5rem;
-  border-radius: 40%;
-  
-  
-  
+} 
+
+.slicecode{
+  margin: .5rem;
+  width: 4rem;
+  height: 3rem;
 }
